@@ -22,7 +22,7 @@ I will classify each post or comment into exactly one of the following four labe
 
 ### Label 1: Reasoned analysis
 
-**Definition:** Makes a developed claim about Jamaican identity, diaspora, language, or belonging and supports it with explanation, distinctions, evidence, or consideration of multiple perspectives.
+**Definition:** Makes a developed claim about Jamaican identity, diaspora, language, culture, or belonging and supports it with explanation, distinctions, examples, evidence, or consideration of multiple perspectives.
 
 **Example 1:**
 > Jamaican is a nationality, but diaspora identity is still real. Someone can be legally American or British while having Jamaican parents, community ties, cultural knowledge, and a connection to the island. That does not mean their experience is identical to someone raised in Jamaica.
@@ -46,7 +46,7 @@ I will classify each post or comment into exactly one of the following four labe
 
 ### Label 3: Identity gatekeeping
 
-**Definition:** States or implies that someone must meet a particular requirement to be legitimately Jamaican, usually without seriously considering competing definitions of Jamaican identity.
+**Definition:** States or implies that a person must meet a specific requirement to legitimately identify as Jamaican, or that another person does not qualify as Jamaican because they fail that requirement.
 
 **Example 1:**
 > If you were born and raised in America, you are American. Having Jamaican parents does not make you Jamaican.
@@ -58,7 +58,7 @@ I will classify each post or comment into exactly one of the following four labe
 
 ### Label 4: Reaction or affirmation
 
-**Definition:** Expresses a brief emotional reaction, agreement, disagreement, humor, or frustration without enough explanation to qualify as reasoned analysis, lived experience, or identity gatekeeping.
+**Definition:** Primarily expresses a brief emotional response, agreement, disagreement, humor, or frustration without developing an argument, providing substantial personal experience, or establishing a rule about Jamaican identity.
 
 **Example 1:**
 > Finally, somebody said it. People take this identity conversation way too far.
@@ -72,7 +72,9 @@ I will classify each post or comment into exactly one of the following four labe
 
 The labels are designed to be mutually exclusive. Every post should receive exactly one label based on the primary structure and communicative function of the post rather than whether I personally agree with its opinion.
 
-A comment will be classified as reasoned analysis when its main purpose is to explain or support a broader claim. It will be classified as a lived-experience contribution when its main purpose is sharing personal experience. It will be classified as identity gatekeeping when its main purpose is setting a rule about who can or cannot claim Jamaican identity. It will be classified as a reaction or affirmation when it is primarily a short expression of emotion, agreement, humor, or disagreement without substantial reasoning.
+A comment will be classified as **Reasoned analysis** when its main purpose is to explain, justify, compare, or support a broader claim. A comment will be classified as a **Lived-experience contribution** when its main purpose is sharing the commenter’s own personal, family, or community experience. A comment will be classified as **Identity gatekeeping** when it establishes a requirement for being Jamaican or says that someone does not qualify as Jamaican because they fail a requirement. A comment will be classified as **Reaction or affirmation** when it is primarily a brief expression of emotion, agreement, disagreement, humor, or frustration without substantial reasoning, personal testimony, or identity rule-setting.
+
+For example, “Facts” will be classified as **Reaction or affirmation** because it is a short agreement without explanation. “I agree because citizenship and ancestry are different things” will be classified as **Reasoned analysis** because it gives a reason for the position.
 
 The labels are also intended to be sufficiently exhaustive that at least 90% of posts from the selected community can be classified without needing an “other” category. If a post initially appears to fit multiple labels, I will use the decision rules in the Hard Edge Cases section rather than assigning multiple labels.
 
@@ -82,33 +84,37 @@ The labels are also intended to be sufficiently exhaustive that at least 90% of 
 
 ### Anticipated ambiguous case
 
-The hardest anticipated case is a personal story that also makes a claim about who should be considered Jamaican.
+The hardest anticipated case is a personal story that also makes a broader claim about who should be considered Jamaican.
 
 For example:
 
 > I was born in Canada, but my parents are Jamaican and I spent every summer in St. Mary. Still, I would not call myself fully Jamaican because I was not raised through the struggles of living there.
 
-This post could reasonably be classified as Lived-experience contribution because it is mainly about the commenter’s own family background and relationship to Jamaica, or Identity gatekeeping because it suggests that being raised in Jamaica is necessary to be fully Jamaican.
+This post could reasonably be classified as **Lived-experience contribution** because it is primarily about the commenter’s own family background and relationship to Jamaica, or **Identity gatekeeping** because it suggests that being raised in Jamaica may be necessary to be fully Jamaican.
 
 ### Decision rule
 
-I  will classify this type of post as Lived-experience contribution when the writer is primarily describing their own identity, background, feelings, or experience without applying that standard to everyone else.
+I will classify this type of post as **Lived-experience contribution** when the writer is primarily describing their own identity, background, feelings, or experiences without applying that standard to other people.
 
-I will classify it as Identity gatekeeping when the writer turns their personal experience into a general rule about other people, such as saying that no one born or raised abroad should call themselves Jamaican.
+I will classify it as **Identity gatekeeping** when the writer explicitly applies the standard to other people or uses it as a general eligibility rule. For example, “Nobody born abroad is Jamaican because they did not experience life on the island” will be classified as Identity gatekeeping.
 
-The decision will be based on observable characteristics of the text, especially whether the post uses a personal reflection such as “I feel,” “in my experience,” or “for me,” versus universal or exclusionary language such as “you cannot,” “real Jamaicans,” “only,” “must,” or “does not count.”
+The decision will be based on observable characteristics of the text rather than my personal opinion about whether the post is correct or persuasive. Personal framing such as “for me,” “I feel,” and “in my experience” will generally indicate Lived-experience contribution, while universal or exclusionary wording such as “real Jamaicans,” “you cannot,” “only,” “must,” “does not count,” or “nobody” will generally indicate Identity gatekeeping.
 
 ---
 
 ## 4. Data Collection Plan
 
-I will collect at least 200 public posts or comments from r/Jamaica.
+I will collect at least **200 public posts or comments** from r/Jamaica.
 
 ### Source
 
-The examples will be collected from Reddit using publicly accessible posts and comments in r/Jamaica. I will not use private messages, private communities, deleted content that is not publicly available, or content that requires authentication.
+I will begin by reading 30–40 comments from a range of active r/Jamaica threads before finalizing the dataset. My dataset will include discussions of Jamaican identity, diaspora experiences, Patois, culture, music, tourism, local-versus-foreign perspectives, and other community debates where users make arguments, share experiences, establish identity boundaries, or react briefly.
 
-I will prioritize comment trees from threads about Jamaican identity, diaspora relationships, cultural belonging, and Patois. I will begin by reading approximately 30–40 comments across several relevant threads before finalizing the dataset. Threads about whether someone is “really Jamaican,” the role of the diaspora, and Patois use are likely to provide the strongest material for this project.
+
+I will use identity, diaspora, and Patois-related threads as important sources because they provide clear examples of cultural belonging and gatekeeping. However, I will not collect only from those threads. I will also sample comments from other culturally relevant discussions in r/Jamaica, including discussions of dancehall or reggae, Jamaican cultural practices, tourism, and local social issues when those discussions naturally contain the same types of discourse.
+
+
+This wider sampling approach is important because the classifier should learn the distinction between discourse styles, not simply learn that certain identity-related keywords belong to a particular label. I will avoid making the task artificially easy by collecting each label from only one narrow topic or thread type.
 
 ### Dataset format
 
@@ -128,7 +134,7 @@ The complete labeled dataset will be included in the GitHub repository.
 
 ### Label distribution
 
-I will aim for a reasonably balanced dataset, with approximately equal numbers of examples per label when the community allows it.
+I will aim for a reasonably balanced dataset, with each label representing at least approximately 20% of the final dataset when the available discourse permits it.
 
 My initial target is:
 
@@ -136,6 +142,8 @@ My initial target is:
 - Lived-experience contribution: approximately 50 examples
 - Identity gatekeeping: approximately 50 examples
 - Reaction or affirmation: approximately 50 examples
+
+These are flexible targets rather than fixed quotas. The final distribution will reflect the types of discourse that actually occur in the sampled r/Jamaica discussions, while still ensuring that no category is severely underrepresented.
 
 I will not allow one label to account for more than 70% of the final dataset. If one label is substantially underrepresented after the first 200 examples, I will collect additional examples that naturally represent that label rather than forcing existing examples into it.
 
@@ -145,7 +153,7 @@ I will read each post individually and assign exactly one label according to the
 
 While annotating, I will keep track of examples that genuinely cause uncertainty. I will record at least three difficult examples, including the labels I considered and the reasoning behind my final decision. These examples will later be discussed in the README.
 
-If I use an LLM to pre-label examples, I will independently review every pre-labeled example and correct any incorrect labels before including the examples in the final dataset.
+I will use an LLM to assist with pre-labeling after finalizing the label definitions and decision rules. I will independently review every AI-proposed label, correct any incorrect labels, and make the final annotation decision myself before including an example in the final dataset.
 
 ---
 
@@ -183,7 +191,7 @@ I will also use a confusion matrix to identify which labels the model confuses w
 
 ## 6. Definition of Success
 
-I will consider the classifier successful if it demonstrates that fine-tuning provides a meaningful improvement over the zero-shot baseline while performing reasonably across all labels.
+I will evaluate the classifier using predefined success thresholds so that I can assess its usefulness consistently rather than judging its performance only after viewing the results.
 
 My specific success threshold is:
 
@@ -192,9 +200,9 @@ My specific success threshold is:
 - Fine-tuned accuracy higher than the zero-shot baseline
 - No label with an extremely poor F1 score indicating that the model has effectively failed to learn that category
 
-I will consider the classifier not fully successful if it performs well overall but consistently fails on one category or if fine-tuning provides little or no improvement over the zero-shot baseline.
+Reaching these thresholds is a target for strong model performance, not a requirement for completing the project. If the model does not meet one or more thresholds, I will still report the results honestly, explain which labels were difficult, and analyze likely reasons for the weaknesses.
 
-These thresholds are intended to give me an objective way to determine whether the resulting classifier is useful rather than simply deciding afterward that the results "look good."
+I will consider the model more successful if fine-tuning improves performance over the zero-shot baseline and produces reasonably balanced results across the four labels. I will consider it less successful if it performs well overall but consistently fails on one category, especially if it cannot distinguish personal testimony from broader analysis or strict identity gatekeeping from brief reactions.
 
 ---
 
@@ -218,13 +226,13 @@ The purpose of this step is to identify ambiguous label boundaries early rather 
 
 ### B. Annotation assistance
 
-I will USE an LLM to assist with pre-labeling.
+I will use an LLM, such as Claude, to assist with pre-labeling after I finalize the label definitions and decision rules.
 
-If I use one, I will provide the model with my label definitions and ask it to assign one label to a batch of unlabeled posts. I will then manually review every proposed label and make the final labeling decision myself.
+I will provide the model with the four label definitions and ask it to assign exactly one label to batches of unlabeled r/Jamaica comments. I will then manually review every proposed label and make the final labeling decision myself.
 
 I will keep track of which examples were AI pre-labeled so that this assistance can be disclosed in the final README.
 
-AI-generated labels will not automatically be treated as correct.
+AI-generated labels will not automatically be treated as correct. I will correct any label that does not match the taxonomy or the decision rules in this planning document before the example is included in the final dataset.
 
 ### C. Failure analysis
 
@@ -316,7 +324,7 @@ The test set will be used for the comparison between the zero-shot baseline and 
 
 Before fine-tuning, I will run a zero-shot baseline using:
 
-`meta-llama/llama-4-scout-17b-16e-instruct`
+`openai/gpt-oss-120b`
 
 through Groq.
 
@@ -346,6 +354,7 @@ I will examine:
 4. Whether errors are concentrated in particular types of posts.
 5. Whether the model appears to rely on superficial features rather than the intended discourse characteristics.
 6. Whether the difficult cases identified during annotation are also difficult for the model.
+7. Whether the model has learned topic-specific shortcuts, such as associating words like “diaspora,” “foreign,” or “Patois” with a label, instead of learning the intended difference between argument, personal experience, gatekeeping, and reaction.
 
 I will analyze at least three specific incorrect predictions from the fine-tuned model.
 
